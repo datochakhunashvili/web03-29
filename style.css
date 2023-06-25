@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.weather-container{
+    width: 1728px;
+    height: 1117px;
+    margin: 0 auto;
+}
+
+.weather-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,93,1) 0%, rgba(2,216,117,1) 0%, rgba(106,144,199,1) 0%, rgba(180,145,198,1) 18%, rgba(0,151,255,1) 94%);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 50px;
+    margin-top: 40px;
+}
+.weather-wrapper1{
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,93,1) 0%, rgba(2,216,117,1) 0%, rgba(0,151,255,1) 0%, rgba(180,145,198,1) 28%, rgba(106,144,199,1) 56%);
+}
+.weather-wrapper2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.weather-wrapper2 div{
+    margin-top: 100px;
+}
